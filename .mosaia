@@ -1,22 +1,22 @@
 {
-    "name": "TOOL_DISPLAY_NAME",
-    "description": "SHORT_TOOL_DESCRIPTION",
+    "name": "ping pong test",
+    "description": "hello world tool",
     "schema": {
         "type": "function",
         "function": {
-            "name": "TOOL_DISPLAY_NAME",
-            "description": "LONG_TOOL_DESCRIPTION",
+            "name": "ping pong test",
+            "description": "a basic test of mosaia tool calling",
             "strict": true,
             "parameters": {
                 "type": "object",
                 "properties": {
                     "EXAMPLE_PARAM_ONE": {
                         "type": "string",
-                        "description": "EXAMPLE_PARAM_ONE_DESCRIPTION"
+                        "description": "description of first param"
                     },
                     "EXAMPLE_PARAM_TWO": {
                         "type": "string",
-                        "description": "EXAMPLE_PARAM_TWO_DESCRIPTION"
+                        "description": "description of second param"
                     }
                 },
                 "required": [
