@@ -1,6 +1,6 @@
 {
     "name": "ping pong test",
-    "description": "hello world tool",
+    "description": "a basic test of mosaia tool calling",
     "schema": {
         "type": "function",
         "function": {
@@ -12,11 +12,11 @@
                 "properties": {
                     "EXAMPLE_PARAM_ONE": {
                         "type": "string",
-                        "description": "description of first param"
+                        "description": "description of first param, etc, etc."
                     },
                     "EXAMPLE_PARAM_TWO": {
                         "type": "string",
-                        "description": "description of second param"
+                        "description": "description of second param, etc, etc."
                     }
                 },
                 "required": [
